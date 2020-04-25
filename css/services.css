@@ -1,0 +1,129 @@
+.services-wrapper {
+    width: 100%;
+    position: relative;
+    margin-bottom: 120px;
+}
+.services-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 80px;
+}
+.services {
+    display: flex;
+    padding-bottom: 80px;
+}
+.services-date {
+    position: relative;
+    width: 10%;
+    margin-right: 40px;
+}
+.services-list {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.services-date__date {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 56px;
+    padding: 10px 0;
+    background-color: #352f89;
+    border-radius: 12px;
+    margin: 0;
+    line-height: 1;
+    z-index: 2;
+}
+.services-date__date span {
+    display: block;
+    font-size: 14px;
+    margin: 0;
+    font-weight: 600;
+    line-height: 1;
+}
+.services-date-img {
+    position: absolute;
+    right: -20px;
+    top: -80px;
+    width: 80px;
+    height: 140px;
+    background-image: url(../img/main/messager-desing.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;
+}
+.services-list_item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    height: auto;
+    padding: 14px 4px 14px 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.services-list_item p {
+    margin: 0;
+    font-weight: 500;
+}
+
+.blue,
+.blue-black,
+.red,
+.green-black,
+.yelloy,
+.green {
+    position: relative;
+}
+.green-black::before,
+.blue::before,
+.blue-black::before,
+.red::before,
+.yelloy::before,
+.green::before {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #2eff24;
+}
+.yelloy::before {
+    background-color: #ffd52c;
+}
+.red::before {
+    background-color: #ff1d5d;
+}
+.blue-black::before {
+    background-color: #3429cd;
+}
+.blue::before {
+    background-color: #396cff;
+}
+.green-black::before {
+    background-color: #3e931c;
+}
+.services-date__date-second {
+    background-color: #ffae3b;
+}
+.services-date-img-second {
+    right: 80px;
+    transform: rotate(-80deg);
+}
+.services-img {
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+    width: 250px;
+    height: 550px;
+    background-image: url(../img/services/services-img.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}

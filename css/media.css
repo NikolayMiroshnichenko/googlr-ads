@@ -1,0 +1,452 @@
+@media (min-width: 1924px) {
+    .container-max {
+        width: 1920px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1640px) {
+    .container {
+        width: 1366px;
+    }
+    .main-wpapper {
+        height: 1170px;
+    }
+    .header {
+        padding: 40px 0 0 0;
+    }
+    .logo {
+        width: 115px;
+        height: 58px;
+    }
+    .header-date__date,
+    .header-date__time {
+        font-size: 16px;
+    }
+    .header-text,
+    .main-securety,
+    .main-des,
+    .about-us-last_text,
+    .services-list_item p,
+    .teacher-list__item {
+        font-size: 18px;
+    }
+    .main-title {
+        font-size: 64px;
+    }
+    .main-des {
+        margin-bottom: 180px;
+    }
+    .timer-title,
+    .messager-text,
+    .services-date__date span {
+        font-size: 16px;
+    }
+    .countdown {
+        width: 260px;
+    }
+    .countdown-time {
+        font-size: 34px;
+    }
+    .countdown-text {
+        font-size: 14px;
+    }
+    .message-wrapper {
+        top: 180px;
+    }
+    .messager {
+        width: 350px;
+        height: 450px;
+    }
+    .messager-title {
+        font-size: 34px;
+    }
+    .messager-link {
+        padding: 18px 0;
+        font-size: 18px;
+    }
+    .messager-securety {
+        font-size: 16px;
+        padding-left: 60px;
+    }
+    .message-desing {
+        width: 130px;
+        height: 240px;
+        right: -100px;
+    }
+    .main-tablet-img {
+        width: 540px;
+        height: 300px;
+        right: 200px;
+        bottom: -80px;
+    }
+    .about-us-list__item {
+        width: 40%;
+    }
+    .about-us-list__first-title {
+        font-size: 28px;
+    }
+    .about-us-list__des {
+        font-size: 20px;
+    }
+    .about-us-list__second-title {
+        font-size: 52px;
+    }
+    .about-us-list__img-second::before {
+        position: absolute;
+        content: "";
+        left: -320px;
+        bottom: 110px;
+        width: 400px;
+        height: 240px;
+        transform: rotate(15deg);
+    }
+    .about-us-list__img-second {
+        width: 80%;
+    }
+    .services-title {
+        font-size: 40px;
+    }
+    .services-date__date {
+        font-size: 64px;
+    }
+    .services-img {
+        width: 300px;
+        height: 720px;
+    }
+    .teacher-wrapper {
+        height: 992px;
+    }
+    .teacher-content__title {
+        font-size: 40px;
+    }
+    .teacher-list {
+        margin-bottom: 80px;
+    }
+}
+@media (min-width: 1900px) {
+    .main-wpapper {
+        height: 1190px;
+    }
+}
+@media (max-width: 1240px) {
+    .container {
+        width: 90%;
+    }
+    .main-wpapper {
+        height: 792px;
+    }
+    .main-title {
+        font-size: 46px;
+    }
+    .main-des {
+        margin-bottom: 100px;
+    }
+    .main-securety {
+        font-size: 12px;
+        width: 30%;
+    }
+    .main-tablet-img  {
+        width: 360px;
+        height: 180px;
+        bottom: -70px;
+    }
+    .about-us-list__second-title {
+        font-size: 32px;
+    }
+    .about-us-list__item {
+        width: 45%;
+    }
+    .about-us-list__des {
+        font-size: 14px;
+        padding-right: 0;
+    }
+    .about-us-list__img-second {
+        width: 80%;
+    }
+    .services-wrapper {
+        overflow-x: hidden;
+    }
+    .services-img {
+        right: -100px;
+        bottom: 0;
+    }
+    .teacher {
+        padding-top: 200px;
+    }
+    .teacher-list__item {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    .teacher-name {
+        font-size: 62px;
+    }
+ 
+}
+@media (max-width: 880px) {
+    .main-tablet-img {
+        display: none;
+    }
+    .main-wpapper {
+        height: 720px;
+    }
+    .main-title {
+        font-size: 32px;
+    }
+    .main-des,
+    .teacher-list__item,
+    .services-list_item p {
+        font-size: 14px;
+    }
+    .main-securety {
+        font-size: 12px;
+        width: 50%;
+    }
+    .about-us-list__second-title {
+        font-size: 26px;
+    }
+    .teacher-content__title {
+        font-size: 24px;
+    }
+    .teacher-name {
+        font-size: 52px;
+    }
+    .teacher-name span {
+        font-size: 24px;
+    }
+    .footer {
+        width: 560px;
+    }
+    .footer-list__link {
+        font-size: 12px;
+    }
+}
+@media (max-width: 766px) {
+    .main-wpapper {
+        height: 1500px;
+        background-image: url(../img/main/main-mobil-img.svg);
+    }
+    .container {
+        width: 85%;
+    }
+    .timer-wrapper {
+        width: 100%;
+        position: static;
+        margin-bottom: 40px;
+    }
+    .countdown {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .timer-title {
+        padding-top: 10px;
+        font-size: 16px;
+    }
+    .message-wrapper {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .messager {
+        width: 100%;
+    }
+    .message-desing {
+        bottom: 75%;
+        right: -10px;
+        transform: rotate(-20deg);
+    }
+
+    .header {
+        position: relative;
+        padding: 30px 0 40px 0;
+    }
+    .header-text {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        white-space: nowrap;
+        transform: translateX(-50%);
+        font-size: 20px;
+    }
+    .main-title {
+        font-size: 36px;
+    }
+    .main-des {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .main-securety {
+        width: 100%;
+        font-size: 16px;
+    }
+    .about-us-list {
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    .about-us-list__first-title {
+        text-align: center;
+    }
+    .about-us-list__item {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 40px;
+    }
+    .about-us-list__second-title {
+        font-size: 40px;
+        transform: translateY(0);
+    }
+    .about-us-list__des {
+        font-size: 20px;
+        text-align: center;
+    }
+    .about-us-list__img {
+        width: 80%;
+    }
+    .about-us-last {
+        width: 100%;
+    }
+    .about-us-last-img {
+        width: 100%;
+        transform: translateX(-10%);
+    }
+    .about-us-last_text {
+        text-align: center;
+        width: 100%;
+        font-size: 20px;
+    }
+    .services-wrapper {
+        margin-bottom: 0;
+    }
+    .services-title {
+        text-align: left;
+        padding-left: 40px;
+    }
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+    .services-date {
+        width: 30%;
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
+    .services-list {
+        width: 100%;
+        flex-direction: column;
+    }
+    .services-list_item {
+        width: 100%;
+    }
+    .services-date-img-second {
+        right: 60px;
+    }
+    .services-img {
+        top: 52%;
+        width: 66px;
+        height: 134px;
+        right: 0;
+        background-image: url(../img/services/services-img-mobil.png);
+    }
+    .teacher-wrapper {
+        position: relative;
+        background-image: url(../img/teacher/teacher-bg-mobill.png);
+        height: 1366px;
+    }
+    .teacher-content__title {
+        position: absolute;
+        left: 10%;
+        top: 200px;
+    }
+    .teacher {
+        padding-top: 280px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .teacher-img {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .teacher-content {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .footer {
+        width: 80%;
+    }
+    .footer-list {
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 0 0 0;
+    }
+    .footer-list li {
+        padding: 10px 0 10px 0;
+    }
+}
+@media (max-width: 444px) {
+    .countdown {
+        width: 100%;
+    }
+    .message-wrapper {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .main-title {
+        padding-top: 90px;
+        font-size: 24px;
+    }
+    .main-des {
+        margin-bottom: 100px;
+    }
+    .header-text {
+        font-size: 18px;
+    }
+    .about-us-list__first-title {
+        text-align: left;
+    }
+    .about-us-last_text,
+    .about-us-list__des {
+        text-align: left;
+        font-size: 16px;
+        white-space: wrap;
+    }
+    .about-us-list__second-title {
+        font-size: 30px;
+        margin: 0;
+    }
+    .services-title {
+        font-size: 28px;
+    }
+
+
+}
+@media (max-width: 340px) {
+    .main-wpapper {
+        height: 1440px;
+    }
+    .header-date__date {
+        font-size: 12px;
+    }
+    .main-securety,
+    .header-text {
+        font-size: 14px;
+    }
+    .main-title {
+        font-size: 20px;
+    }
+    .main-des {
+        font-size: 12px;
+    }
+    .services-title {
+        font-size: 20px;
+    }
+    .teacher-name {
+        font-size: 42px;
+    }
+}
+
+
+
+
