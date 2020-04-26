@@ -352,7 +352,7 @@
     }
     .teacher-wrapper {
         position: relative;
-        background-image: url(../img/teacher/teacher-bg-mobill.png);
+        background-image: url(../img/teacher/teacher-bg-mobill.svg);
         height: 1366px;
     }
     .teacher-content__title {
