@@ -223,8 +223,9 @@
 }
 @media (max-width: 766px) {
     .main-wpapper {
-        height: 1500px;
+        height: 1700px;
         background-image: url(../img/main/main-mobil-img.svg);
+        margin-bottom: 40px;
     }
     .container {
         width: 85%;
@@ -232,26 +233,47 @@
     .timer-wrapper {
         width: 100%;
         position: static;
-        margin-bottom: 40px;
+        margin-bottom: 80px;
     }
     .countdown {
-        width: 70%;
+        width: 100%;
         margin: 0 auto;
+    }
+    .countdown-text {
+    	font-size: 20px;
+    }
+    .countdown-time {
+    	font-size: 56px;
     }
     .timer-title {
         padding-top: 10px;
-        font-size: 16px;
+        font-size: 22px;
     }
     .message-wrapper {
         position: relative;
         top: 0;
         left: 0;
-        width: 70%;
+        width: 100%;
         margin: 0 auto;
         margin-bottom: 40px;
     }
     .messager {
         width: 100%;
+        height: 550px;
+    }
+    .messager-title {
+    	font-size: 42px;
+    }
+    .messager-text {
+    	font-size: 22px;
+    }
+    .messager-securety {
+		font-size: 18px;
+    }
+    .messager-link {
+    	padding: 20px 0;
+    	font-size: 28px;
+    	margin-bottom: 30px;
     }
     .message-desing {
         bottom: 75%;
@@ -272,15 +294,16 @@
         font-size: 20px;
     }
     .main-title {
-        font-size: 36px;
+        font-size: 44px;
     }
     .main-des {
         width: 100%;
         margin-bottom: 80px;
+        font-size: 22px;
     }
     .main-securety {
         width: 100%;
-        font-size: 16px;
+        font-size: 22px;
     }
     .about-us-list {
         flex-direction: column;
@@ -353,15 +376,16 @@
     .teacher-wrapper {
         position: relative;
         background-image: url(../img/teacher/teacher-bg-mobill.svg);
-        height: 1366px;
+        height: 1466px;
     }
     .teacher-content__title {
         position: absolute;
         left: 10%;
-        top: 200px;
+        top: 240px;
+        font-size: 32px;
     }
     .teacher {
-        padding-top: 280px;
+        padding-top: 340px;
         flex-direction: column;
         align-items: center;
     }
@@ -385,12 +409,12 @@
         padding: 10px 0 10px 0;
     }
 }
-@media (max-width: 444px) {
-    .countdown {
-        width: 100%;
+@media (max-width: 580px) {
+	.main-wpapper {
+        height: 1560px;
+        margin-bottom: 0;
     }
     .message-wrapper {
-        width: 100%;
         margin-bottom: 60px;
     }
     .main-title {
@@ -398,10 +422,41 @@
         font-size: 24px;
     }
     .main-des {
+    	font-size: 16px;
         margin-bottom: 100px;
     }
-    .header-text {
-        font-size: 18px;
+    .main-securety {
+    	font-size: 16px;
+    }
+    .timer-wrapper {
+    	margin-bottom: 40px;
+    }
+    .countdown-text {
+    	font-size: 14px;
+    }
+    .countdown-time {
+    	font-size: 32px;
+    }
+    .header-text,
+    .timer-title {
+    	font-size: 18px;
+    }
+    .messager {
+    	height: 440px;
+    }
+    .messager-title {
+    	font-size: 32px;
+    }
+    .messager-text {
+    	font-size: 14px;
+    }
+    .messager-link {
+    	padding: 16px 0;
+    	font-size: 20px;
+    	margin-bottom: 20px;
+    }
+    .messager-securety {
+		font-size: 14px;
     }
     .about-us-list__first-title {
         text-align: left;
@@ -419,12 +474,31 @@
     .services-title {
         font-size: 28px;
     }
+    .teacher-wrapper {
+        height: 1366px;
+    }
+    .teacher {
+    	padding-top: 280px;
+    }
+    .teacher-content__title {
+    	top: 180px;
+    	font-size: 24px;
+    }
 
 
 }
 @media (max-width: 340px) {
     .main-wpapper {
         height: 1440px;
+    }
+    .main-title,
+    .teacher-content__title,
+    .services-title,
+    .messager-title {
+    	font-size: 20px;
+    }
+    .messager-text {
+    	font-size: 12px;
     }
     .header-date__date {
         font-size: 12px;
@@ -433,14 +507,8 @@
     .header-text {
         font-size: 14px;
     }
-    .main-title {
-        font-size: 20px;
-    }
     .main-des {
         font-size: 12px;
-    }
-    .services-title {
-        font-size: 20px;
     }
     .teacher-name {
         font-size: 42px;
